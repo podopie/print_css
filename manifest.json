@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Make Print Nice",
+  "version": "0.1.1",
+  "description": "(slaps roof of car) this extension can make so many sites print better",
+
+  "content_scripts": [{
+    "css": ["style.css"],
+    "js": ["content.js"],
+    "matches": ["*://*/*"]
+  }]
+
+}
